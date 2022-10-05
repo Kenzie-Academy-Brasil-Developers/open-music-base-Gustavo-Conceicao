@@ -1,1 +1,154 @@
-/* Desenvolva sua estilização aqui ... */
+.section-selection {
+    width: 45%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divSelection{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.divSelectionBtn { 
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.btnSelection {
+    height: 32px;
+    width: 60px;
+    border-radius: 4px;
+    padding: 0px 0.5rem;
+    text-align: center;
+    border: transparent;
+    cursor: pointer ;
+}
+
+.btnSelection:hover {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.formRange {
+    width: 100%;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.formRange > input {
+    width: 100%;
+}
+
+.sectionResult{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
+}
+
+.liResult {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 220px;
+    list-style: none;
+    justify-content: space-around;
+    background-color: var( --color-grey-8);
+    padding-bottom: 0.6rem;
+    border-radius: 8px;  
+
+}
+
+.figure {
+    height: 80px;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.divArtist {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+.nameArtist {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;    
+}
+
+.yearMusic {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+
+
+}
+
+.nameMusic {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;    
+}
+
+.divPrice {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.btnBuy {
+    height: 32px;
+    width: 75px;
+    border-radius: 4px;
+    padding: 0px 8px;
+    border: none;
+    cursor: pointer;  
+}
+
