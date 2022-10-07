@@ -7,6 +7,25 @@
     gap: 30px;
 }
 
+.modoDark{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+
+}
+
+.divTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divTitle > img{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
 .divSelection{
     display: flex;
     flex-direction: column;
@@ -82,7 +101,7 @@ ul {
 }
 
 .figure {
-    height: 80px;
+    height: 100%;
     width: 100%;
 }
 

@@ -35,3 +35,15 @@ function filterPrice (products) {
     })
 }
 filterPrice(products)
+
+function darkMode () {
+    const imgMoon = document.getElementById("moon")
+    const main = document.querySelector("main")
+    imgMoon.addEventListener("click", () => {
+        main.classList.toggle("modoDark")
+        if(main.classList === "modoDark"){
+            imgMoon.src = "../assets/img/sun.png"
+        }
+    })
+}
+darkMode()
